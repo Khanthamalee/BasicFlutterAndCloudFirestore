@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "926300556774",
+    "project_id": "basiccrudfirebseflutter",
+    "storage_bucket": "basiccrudfirebseflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926300556774:android:f7b0f953e4ec67f1221a27",
+        "android_client_info": {
+          "package_name": "com.example.basicff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJzrFepyiclg8_GV6b9jCCjwsyRqPukic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926300556774:android:89b569a80e3e5aa6221a27",
+        "android_client_info": {
+          "package_name": "com.example.flutterff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJzrFepyiclg8_GV6b9jCCjwsyRqPukic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
