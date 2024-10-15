@@ -1,3 +1,4 @@
+import 'package:basicff/screen/displayscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -47,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
         body: TabBarView(
           children: [
             FormScreen(),
-            Container(),
+            DisPlayScreen(),
           ],
         ),
         backgroundColor: Colors.greenAccent,
@@ -56,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Tab(
               text: "บันทึกคะแนนสอบ",
             ),
-            Tab(text: "รายชื่อนักเรียน")
+            Tab(text: "รายชื่อนักเรียน"),
           ],
         ),
       ),

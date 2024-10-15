@@ -15,7 +15,7 @@ class _FormScreenState extends State<FormScreen> {
   final formKey = GlobalKey<FormState>();
   Studentdata student = Studentdata();
   final Future<FirebaseApp> firebase = Firebase.initializeApp();
-  CollectionReference _studentCollection =
+  final CollectionReference _studentCollection =
       FirebaseFirestore.instance.collection("students");
   @override
   Widget build(BuildContext context) {
@@ -139,7 +139,7 @@ class _FormScreenState extends State<FormScreen> {
                 ),
               ));
         }
-        return Scaffold(
+        return const Scaffold(
           body: Center(child: CircularProgressIndicator()),
         );
       },
